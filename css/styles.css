@@ -1,0 +1,189 @@
+:root{
+    --primary-color: #c32d28;
+    --primary-dark: #920800;
+    --primary-text: #313d48;
+    --background-color: #f7f7f7;
+
+    background: var(--background-color);
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.barraprincipal {
+  background-color: #D51E18;
+  max-height: 100%;
+}
+.img-menu{
+    height: 60px;
+    width: 60px;
+}
+
+.color {
+    transition: background-color .5s;
+  }
+
+.color:hover {
+    background-color: #D51E18;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex div {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border: 1px solid var(--primary-text);
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.8em;
+}
+
+.center-text {
+    text-align: center
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.center {
+    align-content: center;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    transition: .5s;
+    padding: 1em 2.5em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+a.btn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn.transparent {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn.primary, .btn.transparent {
+    color: white;
+}
+
+.btn.primary:hover {
+    background-color: var(--primary-dark)
+}
+
+input {
+    margin: 5px 0;
+    padding: .5em 0;
+}
+
+input:not(.btn) {
+    border-radius: .5em;
+    padding: .8em;
+    border: 1px solid var(--primary-text);
+    width: calc(100% - 1.6em - 2px);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: var(--primary-color);
+    padding-top: 2em;
+    z-index: 1;
+}
+
+main {
+    min-height: 100vh;
+    background-image: url("../img/studing-in-park.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main aside {
+    color: white;
+    background-color: #23a8c7;
+    background-image: linear-gradient(to bottom right, #158993, #23a8c7);
+}
+
+main aside form {
+    color: var(--primary-text);
+    padding: 10%;
+}
+
+header nav {
+    background: white;
+}
+
+.family-for-life-section {
+    color: white;
+    padding: 50px 0;
+    background: url(../img/family.jpg) no-repeat center center rgba(40, 41, 45, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: color;
+}
+
+
+footer{
+    background-color: #28292d;
+    height: 500px;
+}
+.footer-inicio{
+    background-color: #3A3737;
+}
+.footer-texto{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.footer-texto-titulo{
+    color: white;
+    font-size: 20px;
+
+}
+
+.footer-links{
+    color: #c32d28;
+
+}
+.footer-texto-links{
+    color: white;
+    font-size: 16px;
+}
+.footer-card{
+  background-color: #c32d28;
+  text-align: center;
+}
+.btn-primary{
+  border-radius: 25%;
+}

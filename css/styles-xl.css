@@ -1,0 +1,30 @@
+header {
+    padding-top: 200px;
+}
+
+main {
+    position: relative;
+    background-position: left center;
+    background-size: cover;
+    padding-right: 40%;
+}
+
+main aside {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    align-content: center;
+    justify-content: center;
+}
+
+main aside .wrapper {
+    width: 80%;
+}
+
+main aside form {
+    background-color: white;
+}
